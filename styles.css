@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+/* 1. Container Styling */
+#container {
+    margin: 20px;
+}
+
+/* 2. Insert content BEFORE the container */
+#container::before {
+    content: "Before ";  /* You can change this text */
+    color: #f00;
+    font-size: 20px;
+}
+
+/* 3. Insert content AFTER the container */
+#container::after {
+    content: " After";   /* You can change this text */
+    color: #f00;
+    font-size: 20px;
+}
